@@ -190,12 +190,12 @@ def print_time(threadName, delay, counter, market):
 
 
 if __name__ == '__main__':
-    access_key = '2f852bcc-3af0-4b6c-b0a5-e8802bfc4b1b'
-    access_secret = '18ebc9cb-f8b8-4de0-a6a1-02a0d1de93a0'
+    access_key = '2f852bcc-3af0-fc4b1b'
+    access_secret = '18ebc9cb-f8b8-93a0'
     api = chbtc_api(access_key, access_secret)
 
-    client = Client(access_key='oV5jPLJxEg2XindDkYVRc5uyWtO6pMzQxE5b9q8X',
-                    secret_key='9xbffU5X7FIOVjDrwi8iHKRM7XdMR1cqiD410DLD')
+    client = Client(access_key='oV5jPE5b9q8X',
+                    secret_key='9xbffU51cqiD410DLD')
 
     while True:
 
